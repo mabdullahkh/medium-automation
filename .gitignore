@@ -1,0 +1,17 @@
+# Session & credential files (NEVER commit)
+medium-session.json
+playwright-session.json
+session-*.json
+.env
+.env.local
+.env.*.local
+
+# Dependencies & build outputs
+node_modules/
+dist/
+build/
+*.tsbuildinfo
+
+# Logs & OS files
+*.log
+.DS_Store
